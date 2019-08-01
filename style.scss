@@ -1,0 +1,28 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+$font-text: 'Inconsolata', monospace;
+$font-span: 'Signika', sans-serif;
+$color-one: #0097e6;
+$color-two: #33d9b2;
+$color-three: #ff5252;
+.container {
+width: 50%;
+background: $color-one;
+}
+h1, h2, h3 {
+font-family: $font-text;
+text-align: center;
+}
+p {
+text-align: center;
+font-family: $font-span;
+font-size: 24px;
+}
+h3 {
+color: #fff;
+font-size: 16px;
+}
+header {
+width: 50%;
+background: #ff5252; }
