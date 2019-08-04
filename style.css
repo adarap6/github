@@ -1,9 +1,10 @@
 *, *::before, *::after {
     box-sizing: border-box; }
-  
+ 
   .container {
     width: 50%;
-    background: #0097e6; }
+    background: #0012e6;
+    display: flex; }
   
   h1, h2, h3 {
     font-family: "Inconsolata", monospace;
